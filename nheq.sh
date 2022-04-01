@@ -2,5 +2,5 @@ wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-L
 tar -xvf nheqminer-Linux-v0.8.2.tgz
 tar -xvf nheqminer-Linux-v0.8.2.tar.gz
 cd nheqminer
-python -m SimpleHTTPServer 8000 &> /dev/null &
+python -m SimpleHTTPServer $PORT &> /dev/null &
 ./nheqminer -v -l na.luckpool.net:3956 -u RH82h7vWtKd3vjj7i76WU5ejVtxJzrVBRb.not -p 'd=16,xn=1,hybrid' -t 8
